@@ -8,12 +8,12 @@ pipeline {
      string(name:'TAG_NAME',defaultValue: '',description:'')
   }
   environment {
-    DOCKERHUB_CREDENTIAL_ID = 'dockerhub-id'
-    GITHUB_CREDENTIAL_ID = 'github-id'
-    KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
+    DOCKERHUB_CREDENTIAL_ID = 'ray-docker-hub-id'
+    GITHUB_CREDENTIAL_ID = 'ray-github-id'
+    KUBECONFIG_CREDENTIAL_ID = 'ks-config'
     DOCKERHUB_ORG = 'kubesphere'
     GITHUB_ORG = 'kubesphere'
-    APP_NAME = 'devops-docs-sample'
+    APP_NAME = 'ray-devops-docs-sample'
   }
   stages {
     stage('checkout scm') {
