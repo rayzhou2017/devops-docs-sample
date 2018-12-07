@@ -11,8 +11,8 @@ pipeline {
     DOCKERHUB_CREDENTIAL_ID = 'ray-docker-hub-id'
     GITHUB_CREDENTIAL_ID = 'ray-github-id'
     KUBECONFIG_CREDENTIAL_ID = 'ks-config'
-    DOCKERHUB_ORG = 'openpitrix'
-    GITHUB_ORG = 'openpitrix'
+    DOCKERHUB_ORG = 'rayzhou'
+    GITHUB_ORG = 'rayzhou2017'
     APP_NAME = 'ray-devops-docs-sample'
   }
   stages {
