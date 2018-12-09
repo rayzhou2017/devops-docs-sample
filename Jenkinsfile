@@ -24,7 +24,7 @@ pipeline {
     stage('get dependencies') {
       steps {
         container('nodejs') {
-          sh 'yarn'
+          sh 'yarn install --no-lockfile'
         }
 
       }
