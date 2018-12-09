@@ -1,5 +1,5 @@
 ---
-title: "KubeSphere 简介"
+title: "KubeSphere 容器平台简介"
 ---
 
 
