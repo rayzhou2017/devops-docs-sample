@@ -1,5 +1,5 @@
 ---
-title: "KubeSphere 容器平台简介 - devops 7"
+title: "KubeSphere 容器平台简介"
 ---
 
 
