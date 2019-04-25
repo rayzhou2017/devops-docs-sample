@@ -14,7 +14,7 @@ pipeline {
     DOCKERHUB_NAMESPACE = 'rayzhou'
     GTIHUB_ACCOUNT = 'rayzhou2017' 
     APP_NAME = 'ray-devops-docs-sample'
-    SONAR_CREDENTIAL_ID = ‘sonar-token’
+    SONAR_CREDENTIAL_ID = 'sonar-token’
   }
   stages {
     stage('checkout scm') {
